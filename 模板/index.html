@@ -27,7 +27,7 @@
       <input type="submit"></h3>
       {% for namestocknuber in namestock %}
       <datalist id="nm11"><!--可以自動列表  -->
-         <option value="{{ namestocknuber.split(',')[0] }}">"{{ namestocknuber }}"</option>
+         <option value="{{ namestocknuber.split(',')[0] }}">{{ namestocknuber }}</option>
          <!--namestocknuber.split(',')[0]個股資字取數字  -->
       {% endfor %}
       </datalist>
